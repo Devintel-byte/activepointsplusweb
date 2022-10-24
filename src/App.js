@@ -23,16 +23,16 @@ function App() {
                     <ul class="navbar-nav ms-auto navbar-nav-scroll">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#header">
-                            <FontAwesomeIcon icon={faTiktok} style={{color: '#ff7c60', background:'#fff', width: '1.2em', height: 'auto', border: '1px transparent solid', padding: '5px', margin: '2px'}} />
+                            <FontAwesomeIcon icon={faTiktok} style={{color: '#fffe82', width: '1.2em', height: 'auto', border: '1px transparent solid', background:'#000', padding: '5px', margin: '2px'}} />
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#details">
-                            <FontAwesomeIcon icon={faTwitterSquare} color='#fff' style={{width: '2.3em', height: '2.5em'}} />
+                            <FontAwesomeIcon icon={faTwitterSquare} color='#000' style={{width: '2.3em', height: '2.5em'}} />
                             </a>
                         </li>
                         <li class="nav-item">
-                        <FontAwesomeIcon icon={faInstagramSquare} color='#fff' style={{width: '2.3em', height: '2.5em', margin: '9px' }} />
+                        <FontAwesomeIcon icon={faInstagramSquare} color='#000' style={{width: '2.3em', height: '2.5em', margin: '9px' }} />
                         </li>
                     </ul>
                 </div> 

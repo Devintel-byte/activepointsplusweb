@@ -355,6 +355,7 @@ a:hover {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
+	background-color: #fffe82;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -384,52 +385,6 @@ a:hover {
 .navbar .nav-item .nav-link.active {
 	color: #0092ff;
 }
-
-/* Dropdown Menu */
-.navbar .dropdown .dropdown-menu {
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
-}
-
-@keyframes fadeDropdown {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-	}
-}
-
-.navbar .dropdown-menu {
-	margin-top: 0.25rem;
-	margin-bottom: 0.25rem;
-	border: none;
-	background-color: #fcfafb;
-}
-
-.navbar .dropdown-item {
-	padding-top: 0.625rem;
-	padding-bottom: 0.625rem;
-	color: #5e6576;
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0.875rem;
-	text-decoration: none;
-}
-
-.navbar .dropdown-item:hover {
-	background-color: #fcfafb;
-	color: #0092ff;
-}
-
-.navbar .dropdown-divider {
-	width: 100%;
-	height: 1px;
-	margin: 0.5rem auto 0.5rem auto;
-	border: none;
-	background-color: #d1d1d1;
-}
-/* end of dropdown menu */
 
 .navbar .navbar-toggler {
 	padding: 0;
@@ -493,14 +448,18 @@ a:hover {
 		font-size: 3.25rem;
 		line-height: 3.75rem;
 	}
+.small-text {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 
-	.side-text {
-		font-size: 14px;
-		line-height: 1.3;
-		color: rgb(31, 29, 29);
-		margin-top: 1em;
-		padding-left: 5em;
-	}
+.side-text {
+	font-size: 12px;
+	line-height: 1.3;
+	color: rgb(31, 29, 29);
+	margin-top: -3em;
+	padding-left: 1em;
+}
 
 	/* end of header */
 }
