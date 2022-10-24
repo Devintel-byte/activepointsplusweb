@@ -116,6 +116,13 @@ var imageSlider = new Swiper('.image-slider', {
 	}
 });
 
+//Swiper Slider
+var swiper = new Swiper(".mySwiper", {
+	pagination: {
+	  el: ".swiper-pagination",
+	  dynamicBullets: true,
+	},
+  });
 
 /* Back To Top Button */
 // Get the button
