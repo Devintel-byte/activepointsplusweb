@@ -51,7 +51,9 @@ function App() {
                               <input type="text" class="form-control-input" placeholder="example@youremail.com" required />
                               </div>
                             </form>
-                            <a class="btn-solid-lg" href="#services">JOIN THE WAITLIST</a>
+                            <a class="btn-solid-lg" href="#services">
+                               <img src='assets/images/logo-icon.png' alt='logo-icon' width='24px' height='24px' style={{padding: '1px', margin: '2px' }} /> JOIN THE WAITLIST
+                                </a>
                             <div class='small-text'>
                             <p></p>
                             <p class='side-text'>Now accepting the next 5k members</p>
