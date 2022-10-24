@@ -6,12 +6,12 @@ body {
 }
 
 
-.swiper {
+Swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+SwiperSlide {
   text-align: center;
   font-size: 12px;
 
@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
+SwiperSlide img {
   display: block;
   width: 100%;
   height: 100%;
